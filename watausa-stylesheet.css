@@ -1,0 +1,75 @@
+*{
+      margin: 0px;
+      padding:0px;
+}
+
+h1{
+      color:#ffffff;
+      font-size:50px;
+
+}
+
+h2{
+      color:#00b7ce;
+}
+
+h3{
+      margin: 10px 0 0 0;
+}
+
+.aisatu{
+      font-size: 30px;
+      margin: 0 0 20px 0;
+}
+
+
+.header{
+
+      width: auto;
+      height:150px;
+      background-image:url(IMG_3576.JPG);
+      background-size:cover;
+      padding: 50px 0 0 500px;
+      
+}
+
+.main{
+      background-color: azure;
+      width: auto;
+      height:470px;
+}
+
+.shortcut{
+      width:450px;
+      float:left;
+      margin: 0 0 0 30px;
+
+}
+
+li{
+      margin: 10px 30px;
+
+
+}
+
+.footer{
+      width: auto;
+      height:80px;
+      background-color:#00b7ce;
+}
+
+.sibainu{
+      font-size: 25px;
+      color: #fff;
+      opacity: 0.6;
+      float: left;
+      margin:20px 0 0 20px;
+}
+
+.chosakuken{
+      font-size: 10px;
+      opacity: 0.5;
+      float: right;
+      margin: 40px 0 0 0;
+      
+}
