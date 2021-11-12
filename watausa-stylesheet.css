@@ -41,7 +41,6 @@ h3{
 
 .shortcut{
       width:400px;
-      float:left;
       margin: 0 0 0 30px;
 
 }
@@ -73,4 +72,52 @@ li{
       float: right;
       margin: 40px 0 0 0;
       
+}
+
+
+/*==============================
+1000px以上
+=============================*\
+@media(min-width:1000px) .short-cut{
+  float:left;
+}
+
+@media(min-width:1000px) .header{
+   width:1200px;
+}
+
+/*==============================
+670px以上1000px以下
+=============================*\
+
+@media(max-width:999px) .header{
+   width:1000px;
+}
+
+@media(max-width:999px)　.short-cut{
+   float:left;
+}
+
+@media(max-width:999px) .main{
+   width:1000px;
+}
+
+@media(max-width:999px) .footer{
+   width:1000px;
+}
+
+/*==============================
+670px以下
+=============================*\
+
+@media(max-width:670px) .header{
+  width:670px;
+}
+
+@media(max-width:670px) .main{
+  width:670px;
+}
+
+@media(max-width:670px) .footer{
+  width:670px;
 }
