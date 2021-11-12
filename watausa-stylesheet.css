@@ -24,9 +24,6 @@ h3{
 
 
 .header{
-
-      width: 1200px;
-      height:150px;
       background-image:url(IMG_3576.JPG);
       background-size:cover;
       
@@ -34,8 +31,6 @@ h3{
 
 .main{
       background-color: azure;
-      width: 1200px;
-      height:470px;
 }
 
 .shortcut{
@@ -82,8 +77,14 @@ li{
 }
 
 @media(min-width:1000px) .header{
+   height:150px;
    width:1200px;
    padding: 50px 0 0 500px;
+}
+
+@media(min-width:1000px) .main{
+      width: 1200px;
+      height:470px;
 }
 
 /*==============================
@@ -92,6 +93,7 @@ li{
 
 @media(max-width:999px) .header{
    width:1000px;
+   height:150px;
    padding: 50px 0 0 300px;
 }
 
@@ -101,6 +103,7 @@ li{
 
 @media(max-width:999px) .main{
    width:1000px;
+   height:470px;
 }
 
 @media(max-width:999px) .footer{
@@ -118,7 +121,7 @@ li{
 
 @media(max-width:670px) .main{
   width:670px;
-  height:1000px;
+  height:1200px;
 }
 
 @media(max-width:670px) .footer{
