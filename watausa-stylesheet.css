@@ -118,8 +118,13 @@ li{
 
 @media(max-width:670px) .main{
   width:670px;
+  height:1000px;
 }
 
 @media(max-width:670px) .footer{
   width:670px;
+}
+
+@media(max-width:670px) .short-cut{
+  font-size:30px;
 }
